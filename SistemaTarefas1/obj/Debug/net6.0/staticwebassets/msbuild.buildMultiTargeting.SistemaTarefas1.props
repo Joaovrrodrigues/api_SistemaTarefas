@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SistemaTarefas1.props" />
+</Project>
