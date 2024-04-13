@@ -40,7 +40,7 @@ namespace SistemaTarefas1.Repositorios
             }
 
             usuarioPorId.Nome = usuario.Nome;
-            usuarioPorId.Email = usuario.Email; //testar ao contrário
+            usuarioPorId.Email = usuario.Email;
 
             _dbContext.Usuarios.Update(usuarioPorId);
             await _dbContext.SaveChangesAsync();

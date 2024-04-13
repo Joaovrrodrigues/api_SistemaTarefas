@@ -37,6 +37,13 @@ namespace SistemaDeTarefas.Controllers
             return Ok(usuario);
         }
 
+        [HttpPatch("{id}")]
+        public async Task<ActionResult<UsuarioModel>> Atualizar([FromBody] UsuarioModel usuariomodel, int id )
+        {
+            UsuarioModel usuario = await _usuarioRepositorio.Atualizar(usuariomodel,id);
+            return Ok(usuario);
+        }
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<UsuarioModel>> Excluir(int id)
         {

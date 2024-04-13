@@ -18,11 +18,13 @@ namespace SistemaTarefas1
                 connectionStringMySql, ServerVersion.Parse("8.0.36")));
 
             builder.Services.AddControllers();
+            
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            builder.Services.AddScoped<ITarefaRepositorio, TarefaRepositorio>();
 
             var app = builder.Build();
 

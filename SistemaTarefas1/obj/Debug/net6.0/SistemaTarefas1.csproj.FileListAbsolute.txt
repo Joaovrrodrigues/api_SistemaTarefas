@@ -37,3 +37,4 @@ C:\Users\jjoao\source\repos\SistemaTarefas1\SistemaTarefas1\obj\Debug\net6.0\ref
 C:\Users\jjoao\source\repos\SistemaTarefas1\SistemaTarefas1\obj\Debug\net6.0\SistemaTarefas1.pdb
 C:\Users\jjoao\source\repos\SistemaTarefas1\SistemaTarefas1\obj\Debug\net6.0\SistemaTarefas1.genruntimeconfig.cache
 C:\Users\jjoao\source\repos\SistemaTarefas1\SistemaTarefas1\obj\Debug\net6.0\ref\SistemaTarefas1.dll
+C:\Users\jjoao\source\repos\SistemaTarefas1\SistemaTarefas1\obj\Debug\net6.0\SistemaTarefas1.sourcelink.json
